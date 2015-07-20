@@ -1,0 +1,21 @@
+.keyName {
+    font-weight: bold;
+}
+
+.property {
+    position: absolute;
+    left: 20%;
+}
+
+.propertyIndex2{
+    left: 90%;
+}
+
+#topdeskCli {
+    margin: 20px;
+}
+
+#centered {
+      width: 50%;
+    margin: 0 auto;
+}

@@ -1,0 +1,126 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'jquery-flip' ]
+2 info using npm@2.11.2
+3 info using node@v0.12.6
+4 verbose install initial load of C:\xampp\htdocs\topdeskcli\package.json
+5 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\better-console\package.json
+6 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\del\package.json
+7 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\extend\package.json
+8 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\gulp\package.json
+9 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\gulp-autoprefixer\package.json
+10 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\gulp-chmod\package.json
+11 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\gulp-clone\package.json
+12 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\gulp-concat\package.json
+13 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\gulp-concat-css\package.json
+14 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\gulp-copy\package.json
+15 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\gulp-flatten\package.json
+16 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\gulp-header\package.json
+17 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\gulp-help\package.json
+18 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\gulp-if\package.json
+19 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\gulp-less\package.json
+20 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\gulp-minify-css\package.json
+21 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\gulp-notify\package.json
+22 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\gulp-plumber\package.json
+23 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\gulp-print\package.json
+24 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\gulp-rename\package.json
+25 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\gulp-replace\package.json
+26 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\gulp-rtlcss\package.json
+27 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\gulp-uglify\package.json
+28 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\gulp-util\package.json
+29 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\gulp-watch\package.json
+30 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\jquery\package.json
+31 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\map-stream\package.json
+32 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\require-dot-file\package.json
+33 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\semantic-ui\package.json
+34 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\vue\package.json
+35 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\vue-resource\package.json
+36 verbose installManyTop reading scoped package data from C:\xampp\htdocs\topdeskcli\node_modules\yamljs\package.json
+37 info package.json better-console@0.2.4 license should be a valid SPDX license expression
+38 info package.json gulp-concat-css@2.2.0 No license field.
+39 info package.json gulp-copy@0.0.2 No license field.
+40 info package.json gulp-if@1.2.5 No license field.
+41 info package.json gulp-notify@2.2.0 No license field.
+42 info package.json gulp-rename@1.2.2 No license field.
+43 info package.json gulp-clone@1.0.0 No license field.
+44 info package.json jquery@2.1.4 No license field.
+45 info package.json yamljs@0.2.3 No license field.
+46 verbose readDependencies loading dependencies from C:\xampp\htdocs\topdeskcli\package.json
+47 silly cache add args [ 'jquery-flip', null ]
+48 verbose cache add spec jquery-flip
+49 silly cache add parsed spec { raw: 'jquery-flip',
+49 silly cache add   scope: null,
+49 silly cache add   name: 'jquery-flip',
+49 silly cache add   rawSpec: '',
+49 silly cache add   spec: '*',
+49 silly cache add   type: 'range' }
+50 silly addNamed jquery-flip@*
+51 verbose addNamed "*" is a valid semver range for jquery-flip
+52 silly addNameRange { name: 'jquery-flip', range: '*', hasData: false }
+53 silly mapToRegistry name jquery-flip
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry uri https://registry.npmjs.org/jquery-flip
+57 verbose addNameRange registry:https://registry.npmjs.org/jquery-flip not in flight; fetching
+58 verbose request uri https://registry.npmjs.org/jquery-flip
+59 verbose request no auth needed
+60 info attempt registry request try #1 at 10:59:55
+61 verbose request id ef743c463253b8a4
+62 http request GET https://registry.npmjs.org/jquery-flip
+63 http 404 https://registry.npmjs.org/jquery-flip
+64 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+64 verbose headers   'content-type': 'application/json',
+64 verbose headers   'cache-control': 'max-age=0',
+64 verbose headers   'content-length': '51',
+64 verbose headers   'accept-ranges': 'bytes',
+64 verbose headers   date: 'Mon, 20 Jul 2015 09:00:04 GMT',
+64 verbose headers   via: '1.1 varnish',
+64 verbose headers   age: '0',
+64 verbose headers   connection: 'keep-alive',
+64 verbose headers   'x-served-by': 'cache-fra1242-FRA',
+64 verbose headers   'x-cache': 'MISS',
+64 verbose headers   'x-cache-hits': '0',
+64 verbose headers   'x-timer': 'S1437382803.705917,VS0,VE420' }
+65 silly get cb [ 404,
+65 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+65 silly get     'content-type': 'application/json',
+65 silly get     'cache-control': 'max-age=0',
+65 silly get     'content-length': '51',
+65 silly get     'accept-ranges': 'bytes',
+65 silly get     date: 'Mon, 20 Jul 2015 09:00:04 GMT',
+65 silly get     via: '1.1 varnish',
+65 silly get     age: '0',
+65 silly get     connection: 'keep-alive',
+65 silly get     'x-served-by': 'cache-fra1242-FRA',
+65 silly get     'x-cache': 'MISS',
+65 silly get     'x-cache-hits': '0',
+65 silly get     'x-timer': 'S1437382803.705917,VS0,VE420' } ]
+66 verbose stack Error: 404 Not Found: jquery-flip
+66 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:245:14)
+66 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:170:14)
+66 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:354:22)
+66 verbose stack     at Request.emit (events.js:110:17)
+66 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1207:14)
+66 verbose stack     at Request.emit (events.js:129:20)
+66 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1153:12)
+66 verbose stack     at IncomingMessage.emit (events.js:129:20)
+66 verbose stack     at _stream_readable.js:908:16
+66 verbose stack     at process._tickCallback (node.js:355:11)
+67 verbose statusCode 404
+68 verbose pkgid jquery-flip
+69 verbose cwd C:\xampp\htdocs\topdeskcli
+70 error Windows_NT 6.3.9600
+71 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "jquery-flip"
+72 error node v0.12.6
+73 error npm  v2.11.2
+74 error code E404
+75 error 404 Not Found: jquery-flip
+75 error 404
+75 error 404 'jquery-flip' is not in the npm registry.
+75 error 404 You should bug the author to publish it (or use the name yourself!)
+75 error 404
+75 error 404 Note that you can also install from a
+75 error 404 tarball, folder, http url, or git url.
+76 verbose exit [ 1, true ]

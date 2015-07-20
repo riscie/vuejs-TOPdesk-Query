@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <title>TOPdesk CLI</title>
+    <link rel="stylesheet" href="node_modules/semantic-ui/dist/semantic.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <div id="topdeskCli">
+        <div class="ui text container">
+          <div class="ui segments">
+            <div class="ui segment">
+              <div class="ui form">
+                <div class="ui icon input" id="searchForm">
+                  <input placeholder="Search by Name..." type="text" v-model="inputField" v-on="keyup:search | key 'enter'">
+                  <i class="search icon"></i>
+              </div>
+          </div>
+      </div>
+</div>  
+
+    
+    <div class="ui link cards" id="centered" v-show="!isEmpty(output)">
+        <div class="card" >
+            <div class="image">
+           
+                <img src="images/{{imagePath}}">
+
+            </div>
+            <div class="content">
+              <div class="header">{{output.username}}</div>
+              <div class="meta">
+                <a href="http://{{output.hostname}}:5800"><span class="keyName">{{output.hostname}} - {{output.description}}</span></a>
+            </div>
+            <div class="description">
+               
+            </div>
+            </div>
+            <div class="extra content">
+                <span>
+                    <i class="user icon"></i>
+                        {{output.location}}
+                </span>
+            </div>
+        </div>
+    </div>
+</div> 
+</div>  
+
+
+
+
+
+
+
+
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/semantic-ui/dist/semantic.min.js"></script>
+<script src="node_modules/vue/dist/vue.min.js"></script>
+<script src="node_modules/vue-resource/dist/vue-resource.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
